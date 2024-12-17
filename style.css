@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.boxes {
+    display: flex;
+    gap: 5px;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: #add8e6; /* اللون الأزرق */
+    border: 1px solid #7da3b7;
+    border-radius: 4px;
+}
+
+.box.selected {
+    background-color: orange; /* اللون البرتقالي للعنصر الخامس */
+    border-color: #e67e22;
+}
